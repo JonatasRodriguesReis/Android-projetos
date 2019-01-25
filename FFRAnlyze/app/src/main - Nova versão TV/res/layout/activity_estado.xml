@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qualidade.lg.ffr_anlyze.EstadoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="15dp"
+            android:text="Estado"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtAnoAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEstado"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:text="2017"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtFFR_Anterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAnoAnterior"
+            android:layout_centerHorizontal="true"
+            android:text="0,00"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtAnoAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFFR_Anterior"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="2018"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/txtFFRAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtFFR_Anterior"
+            android:layout_below="@+id/txtAnoAtual"
+            android:text="0,00"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtImproved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFFRAtual"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:text="Improved"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/txtFFR_Improved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtImproved"
+            android:layout_centerHorizontal="true"
+            android:text="0,00"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnListaItens"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFFR_Improved"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="List Items"
+            android:onClick="listarItems"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/txtMes"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtEstado"
+            android:text="Month"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="15dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

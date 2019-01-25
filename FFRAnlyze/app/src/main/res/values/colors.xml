@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B0244A</color>
+    <color name="colorPrimaryDark">#7f0000</color>
+    <color name="colorAccent">#b71c1c</color>
+    <color name="green">#2e7d32</color>
+    <color name="red">#d50000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="popup">#616161</color>
+    <color name="amareloBotao">#FFEB3B</color>
+    <color name="amarelo">#FDD835</color>
+</resources>

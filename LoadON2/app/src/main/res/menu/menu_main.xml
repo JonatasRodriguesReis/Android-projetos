@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lge.loadon.MainActivity">
+    <item
+        android:id="@+id/action_timeline"
+        android:orderInCategory="100"
+        android:title="IQC Timeline"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_lotes"
+        android:orderInCategory="100"
+        android:title="Lotes Inspecionados"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tempo"
+        android:orderInCategory="100"
+        android:title="Tempo Médio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_load"
+        android:orderInCategory="100"
+        android:title="Load"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ip"
+        android:orderInCategory="100"
+        android:title="Trocar IP"
+        app:showAsAction="never" />
+</menu>

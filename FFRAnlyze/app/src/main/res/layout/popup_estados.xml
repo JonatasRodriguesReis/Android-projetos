@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:textColor = "@color/colorPrimaryDark"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/txt1pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:text="2017"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txtAnoAnteriorpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1pop"
+        android:layout_alignStart="@+id/txt1pop"
+        android:layout_alignEnd="@id/txt1pop"
+        android:text="0,00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt2pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018"
+        android:layout_toEndOf="@id/txt1pop"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtAnoAtualpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/txt2pop"
+        android:layout_alignStart="@id/txt2pop"
+        android:layout_below="@id/txt2pop"
+        android:textAlignment="center"
+        android:text="0,00"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt3pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txt2pop"
+        android:layout_marginLeft="20dp"
+        android:text="Improved"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtImprovedpop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txt3pop"
+        android:layout_below="@+id/txt1pop"
+        android:layout_alignStart="@id/txt3pop"
+        android:textAlignment="center"
+        android:text="0,00"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnToView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1pop"
+        android:layout_marginTop="49dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Details"
+        android:textColor="@color/white" />
+</RelativeLayout>

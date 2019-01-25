@@ -1,0 +1,1 @@
+Versão para o celuar do Delmo e Kim(tomar cuidado que a resolução é diferente) - 1080X1920xxdpi

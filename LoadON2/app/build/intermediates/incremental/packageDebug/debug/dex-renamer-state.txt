@@ -1,0 +1,4 @@
+#Wed Jan 16 16:39:45 BOT 2019
+base.0=C\:\\Users\\francisco.pereira\\StudioProjects\\LoadON2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\95
+path.0=classes.dex
+renamed.0=classes.dex

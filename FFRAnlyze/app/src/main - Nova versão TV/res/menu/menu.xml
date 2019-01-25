@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+
+        <item android:id="@+id/hEaItem" android:title="@string/h_a" android:checked="true" android:orderInCategory="100"/>
+        <item android:id="@+id/rac" android:title="RAC" android:orderInCategory="100"/>
+        <item android:id="@+id/onoffItem" android:title="RAC | ON/OFF" android:orderInCategory="100" />
+        <item android:id="@+id/inverterItem" android:title="RAC | INVERTER" android:orderInCategory="100"/>
+        <item android:id="@+id/MWO" android:title="MWO" android:orderInCategory="100"/>
+        <item android:id="@+id/solidItem" android:title="MWO | SOLO" android:orderInCategory="100" />
+        <item android:id="@+id/grillItem" android:title="MWO | GRILL" android:orderInCategory="100" />
+        <item android:id="@+id/scitem" android:title="SC"  android:orderInCategory="100"/>
+        <item android:id="@+id/shitem" android:title="SH" android:orderInCategory="100"/>
+        <item android:id="@+id/switem" android:title="SW" android:orderInCategory="100" />
+        <item android:id="@+id/l23item" android:title="23L" android:orderInCategory="100"/>
+        <item android:id="@+id/l30item" android:title="30L" android:orderInCategory="100"/>
+
+    </group>
+
+</menu>

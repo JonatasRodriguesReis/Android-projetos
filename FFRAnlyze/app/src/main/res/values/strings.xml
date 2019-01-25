@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ON Heat Map FFR</string>
+    <string name="positive">To View</string>
+    <string name="h_a"><![CDATA[H&A]]></string>
+    <string name="ip">10.193.236.94</string>
+    <string name="title_activity_ip">IPActivity</string>
+</resources>
